@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inicia sesion</h1>
+    <button id="loginGoogle">
+        inicia con google
+    </button>
+    <button id="loginFacebook">
+      inicia con facebook
+    </button>
+    
+    <div id="root">
+      <img id="avatar" src="" alt="">
+    </div>
+
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous">
+  </script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-auth.js"></script>
+<script src="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.js"></script>
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBMS1KD0H2We_HnLLSxFfbW74xTFxnsvg4",
+    authDomain: "taller05-60f84.firebaseapp.com",
+    databaseURL: "https://taller05-60f84.firebaseio.com",
+    projectId: "taller05-60f84",
+    storageBucket: "taller05-60f84.appspot.com",
+    messagingSenderId: "186292942340",
+    appId: "1:186292942340:web:a3439063bd2392cc472751",
+    measurementId: "G-MS61P3PPYL"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
